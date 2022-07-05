@@ -21,7 +21,7 @@ export default () => {
   };
 
   useEffect(() => {
-    searchApi('pasta');
+    searchApi('Coffee');
   }, []);
 
   return [searchApi, results, errorMessage];
